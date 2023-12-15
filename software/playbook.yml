@@ -1,0 +1,10 @@
+- name: install software
+  groups:
+    - all
+
+  sudo: root
+
+  tasks:
+
+    - !apt
+      package: git 
